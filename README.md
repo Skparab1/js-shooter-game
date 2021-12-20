@@ -7,4 +7,5 @@ A space shooter game in js. Just something i made in my free time. Play it [here
 - has power ups
   - money: adds 500 to your score
   - invincibility: makes you invincible to one ball
-  - time: slows down the balls
+  - time: slows down the balls (sort of gives you time)
+  - 
