@@ -180,8 +180,8 @@ function draw() {
     if (invincibility){
       text('Invincibility active',650,200);
     }
-    if (moneytimer < 300){
-      text('Money gained',650,250);
+    if (moneytimer < 120){
+      text('Money gained',700,250);
     }
     if (largeb < 300){
       text('Large bullets expiring in '+(120-largeb)/6600,300);
@@ -207,6 +207,7 @@ function draw() {
     textSize(40);
     text('GAME OVER',500,250);
     text('SCORE: '+score,500,300);
+    text('Press any key to play again',300,350);
   } else {
     fill(200,0,0);
     stroke(200,0,0);
@@ -216,6 +217,7 @@ function draw() {
     textSize(40);
     text('GAME OVER',500,250);
     text('SCORE: '+score,500,300);
+    text('Press any key to play again',300,350);
   }
   
 }
@@ -225,5 +227,8 @@ function keyPressed(){
     bullets.push(spos+50);
     bullets.push(windowHeight-40);
     bullets.push('green');
+  }
+  if (lost){
+    location.reload();
   }
 }
