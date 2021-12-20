@@ -6,5 +6,5 @@ A space shooter game in js. Just something i made in my free time. Play it [here
 - use arrow keys to move launcher
 - has power ups
   - money: adds 500 to your score
-  - invincibility: makes you inc=vincible to one ball
+  - invincibility: makes you invincible to one ball
   - 
