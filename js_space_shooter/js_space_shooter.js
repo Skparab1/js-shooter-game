@@ -54,7 +54,7 @@ function draw() {
       }
       
       ellipse(bullets[j],bullets[j+1],bsize,bsize*4);
-      bullets[j+1] = bullets[j+1]-5;
+      bullets[j+1] = bullets[j+1]-(5*60/frameRate());
       j += 3;
       if (bullets[j+1] <= -10){
         bullets.splice(j, 3);
@@ -68,7 +68,7 @@ function draw() {
     let a = 0;
     while (a < asteroids.length){
       ellipse(asteroids[a],asteroids[a+1],20,20);
-      asteroids[a+1] = asteroids[a+1] + astspeed;
+      asteroids[a+1] = asteroids[a+1] + (astspeed*60/frameRate());
       
       if (asteroids[a+1] >= windowHeight){
         if (!invincibility){
