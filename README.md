@@ -4,4 +4,4 @@ A space shooter game in js. Just something i made in my free time. Play it [here
 ## Main features
 - randomized asteroid position
 - use arrow keys to move launcher
-- ha
+- has power ups
