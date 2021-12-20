@@ -9,4 +9,4 @@ A space shooter game in js. Just something i made in my free time. Play it [here
   - invincibility: makes you invincible to one ball
   - time: slows down the balls (sort of gives you time)
   - large bullets: increases the size of bullets
-  - all fire **the coolest one** (try it ans see what happens ;))
+  - all fire **the coolest one** (try it and see what happens ;))
